@@ -8,6 +8,7 @@ import {
   WithEffect,
   WithLifecycle,
   WithContext,
+  WithReducer,
   WithStateAndHandlers,
   WithStateLifecycleAndHandlers,
 } from '../../examples/components';
@@ -21,6 +22,7 @@ export default () => (
     <Route path="/withEffect" component={WithEffect} />
     <Route path="/withLifecycle" component={WithLifecycle} />
     <Route path="/withContext" component={WithContext} />
+    <Route path="/withReducer" component={WithReducer} />
 
     <Route path="/withStateAndHandlers" component={WithStateAndHandlers} />
     <Route

@@ -21,6 +21,9 @@ const ReactHooksExamples = () => (
       <li>
         <Link to="/withContext">withContext</Link>
       </li>
+      <li>
+        <Link to="/withReducer">withReducer</Link>
+      </li>
     </ul>
 
     <h2>Combined</h2>
