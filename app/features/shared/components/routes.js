@@ -11,6 +11,7 @@ import {
   WithReducer,
   WithStateAndHandlers,
   WithStateLifecycleAndHandlers,
+  WithEffectAndState,
 } from '../../examples/components';
 import NotFound from './notFound';
 
@@ -29,6 +30,7 @@ export default () => (
       path="/withStateLifecycleAndHandlers"
       component={WithStateLifecycleAndHandlers}
     />
+    <Route path="/withEffectAndState" component={WithEffectAndState} />
 
     <Route component={NotFound} />
   </Switch>

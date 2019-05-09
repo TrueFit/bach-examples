@@ -36,6 +36,9 @@ const ReactHooksExamples = () => (
           withStateLifecycleAndHandlers
         </Link>
       </li>
+      <li>
+        <Link to="/withEffectAndState">withEffectAndState</Link>
+      </li>
     </ul>
   </>
 );
