@@ -24,6 +24,12 @@ const ReactHooksExamples = () => (
       <li>
         <Link to="/withReducer">withReducer</Link>
       </li>
+      <li>
+        <Link to="/withCallback">withCallback</Link>
+      </li>
+      <li>
+        <Link to="/withMemo">withMemo</Link>
+      </li>
     </ul>
 
     <h2>Combined</h2>
@@ -38,6 +44,9 @@ const ReactHooksExamples = () => (
       </li>
       <li>
         <Link to="/withEffectAndState">withEffectAndState</Link>
+      </li>
+      <li>
+        <Link to="/withMemoAndState">withMemoAndState</Link>
       </li>
     </ul>
   </>
