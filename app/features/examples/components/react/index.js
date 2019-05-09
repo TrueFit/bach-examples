@@ -6,6 +6,7 @@ export {default as WithContext} from './withContext';
 export {default as WithReducer} from './withReducer';
 export {default as WithCallback} from './withCallback';
 export {default as WithMemo} from './withMemo';
+export {default as WithRef} from './withRef';
 
 export {default as WithMemoAndState} from './withMemoAndState';
 export {default as WithEffectAndState} from './withEffectAndState';

@@ -11,6 +11,7 @@ import {
   WithReducer,
   WithCallback,
   WithMemo,
+  WithRef,
   WithStateAndHandlers,
   WithStateLifecycleAndHandlers,
   WithEffectAndState,
@@ -29,6 +30,7 @@ export default () => (
     <Route path="/withReducer" component={WithReducer} />
     <Route path="/withCallback" component={WithCallback} />
     <Route path="/withMemo" component={WithMemo} />
+    <Route path="/withRef" component={WithRef} />
 
     <Route path="/withStateAndHandlers" component={WithStateAndHandlers} />
     <Route

@@ -30,6 +30,9 @@ const ReactHooksExamples = () => (
       <li>
         <Link to="/withMemo">withMemo</Link>
       </li>
+      <li>
+        <Link to="/withRef">withRef</Link>
+      </li>
     </ul>
 
     <h2>Combined</h2>
