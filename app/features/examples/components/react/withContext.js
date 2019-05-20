@@ -1,17 +1,23 @@
 import React from 'react';
 import {compose, withContext} from '@truefit/bach';
 
-const Component = ({context: {value}}) => {
+const Component = ({message}) => {
   return (
     <div>
       <h1>With Context</h1>
       <div>
-        <h2>Value: {value}</h2>
+        <h2>{message}</h2>
       </div>
     </div>
   );
 };
 
-export default compose(withContext('context', React.createContext({value: 0})))(
-  Component,
-);
+const Child = compose(withContext(['message'], 'context'))(Component);
+
+const Parent = () => {
+  const context = React.createContext({message: 'Hello Child'});
+
+  return <Child context={context} />;
+};
+
+export default Parent;

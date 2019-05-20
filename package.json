@@ -25,7 +25,7 @@
     ]
   },
   "dependencies": {
-    "@truefit/bach": "^0.0.1",
+    "@truefit/bach": "^0.1.1",
     "@truefit/http-utils": "^1.0.6",
     "@truefit/redux-utils": "^1.0.2",
     "axios": "^0.18.0",

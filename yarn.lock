@@ -1154,10 +1154,12 @@
   dependencies:
     any-observable "^0.3.0"
 
-"@truefit/bach@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@truefit/bach/-/bach-0.0.1.tgz#9505957e95ba031276c3e5e77393b015123201a0"
-  integrity sha512-QtfjdZ4coodQwaC9SSdu6M8GCJ6y82biK7zO3uGsx5o55NKaOOfFlGvGKE/sNHazdcISYNlDzoUuxFsJ1tLG8g==
+"@truefit/bach@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@truefit/bach/-/bach-0.1.1.tgz#700b6f9ec60f537fcb43e05d51eac636507ccc12"
+  integrity sha512-szAnlCMw4frlBiVuN9wzqrrQhi7GkB3uw7vyrnOfQf7iznPA25XtB2Y0BnGsnsCyREOo88T972Ebcu+Ml/ENdw==
+  dependencies:
+    react "^16.8.6"
 
 "@truefit/http-utils@^1.0.6":
   version "1.0.6"
