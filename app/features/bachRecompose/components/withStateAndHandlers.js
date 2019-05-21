@@ -1,5 +1,6 @@
 import React from 'react';
-import {compose, withState, withHandlers} from '@truefit/bach';
+import {compose, withState} from '@truefit/bach';
+import {withHandlers} from '@truefit/bach-recompose';
 
 const Component = ({count, incrementCount}) => (
   <div>

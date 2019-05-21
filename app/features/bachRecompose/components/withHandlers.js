@@ -1,5 +1,6 @@
 import React from 'react';
-import {compose, withHandlers} from '@truefit/bach';
+import {compose} from '@truefit/bach';
+import {withHandlers} from '@truefit/bach-recompose';
 
 const Component = ({sayHello}) => (
   <div>

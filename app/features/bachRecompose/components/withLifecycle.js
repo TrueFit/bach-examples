@@ -1,28 +1,24 @@
 import React from 'react';
-import {compose, withState, withHandlers, withLifecycle} from '@truefit/bach';
+import {compose, withState} from '@truefit/bach';
+import {withLifecycle} from '@truefit/bach-recompose';
 
-const Component = ({count, incrementCount}) => (
+const Component = ({flag}) => (
   <div>
-    <h1>With State, Lifecycle, Handlers</h1>
-    <div>
-      <h2>Count: {count}</h2>
-      <button onClick={incrementCount}>Increment</button>
-    </div>
+    <h1>With Lifecycle</h1>
+    <div>Flag: {flag ? 'true' : 'false'}</div>
   </div>
 );
 
 export default compose(
-  withState('count', 'setCount', 0),
-
-  withHandlers({
-    incrementCount: ({count, setCount}) => {
-      setCount(count + 1);
-    },
-  }),
+  withState('flag', 'setFlag', false),
 
   withLifecycle({
     componentDidMount: props => {
       console.log('Component Did Mount: ', props); // eslint-disable-line
+
+      setTimeout(() => {
+        props.setFlag(true);
+      }, 2000);
     },
 
     componentDidUpdate: (props, prevProps) => {
