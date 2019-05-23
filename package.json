@@ -25,10 +25,10 @@
     ]
   },
   "dependencies": {
-    "@truefit/bach": "^0.1.11",
+    "@truefit/bach": "^0.1.15",
     "@truefit/bach-recompose": "^0.0.2",
-    "@truefit/bach-redux": "^0.0.6",
-    "@truefit/http-utils": "^1.0.7",
+    "@truefit/bach-redux": "^0.0.7",
+    "@truefit/http-utils": "^1.0.8",
     "@truefit/redux-utils": "^1.0.3",
     "axios": "^0.18.0",
     "connected-react-router": "^6.4.0",
