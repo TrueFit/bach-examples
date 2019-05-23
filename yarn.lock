@@ -1128,56 +1128,42 @@
   dependencies:
     any-observable "^0.3.0"
 
-"@truefit/bach-recompose@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@truefit/bach-recompose/-/bach-recompose-0.0.1.tgz#ac22d98fdc5dde96fe29071a5bfddfb44099d4fc"
-  integrity sha512-TtDukTZ/GPmDKuFapZfM0rBbF09vKe7XNwhyidyWwYwGUMLidRdtteWcBsusi0M1u3QDk0zi0MrrX/lDosXjwQ==
+"@truefit/bach-recompose@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@truefit/bach-recompose/-/bach-recompose-0.0.2.tgz#5f5f6a22c22dc6e8b39fb3931c8d0e6db07ac1f1"
+  integrity sha512-18IqoDK7pI8W4xn4NJoP2dm+FWCTLdJWLiHgIUqHeVhy9Qog93EsXHh7uHwfraD0lpc4Vpy+DVjrpHtBSfcnHA==
   dependencies:
-    "@truefit/bach" "^0.1.7"
+    "@truefit/bach" "^0.1.11"
     react "^16.8.6"
 
-"@truefit/bach-redux@^0.0.5":
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/@truefit/bach-redux/-/bach-redux-0.0.5.tgz#714aafec4f17303813484c66874fc3692c441362"
-  integrity sha512-6XCVrJtf1UD82Mj9U/mIk7TA+4kxFYc9M7+xoC12uwmuSK9WPp1FTn67EUU0ejYAcriO7pecufkUuBaRGTHhBQ==
+"@truefit/bach-redux@^0.0.6":
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/@truefit/bach-redux/-/bach-redux-0.0.6.tgz#1cb257e3483473e4d42a1337069811aded43f565"
+  integrity sha512-FJHrCbSuxxxnINjaFwqL2Mc4D4Nj2NELf3CGqL1lMhssw98JvAtMN9rh1YbFMHjSUI4wYlIHsqLiGxqjB4cURg==
   dependencies:
-    "@truefit/bach" "^0.1.8"
+    "@truefit/bach" "^0.1.11"
     react "^16.8.6"
     react-redux "^7.1.0-alpha.4"
     redux "^4.0.1"
 
-"@truefit/bach@^0.1.10":
-  version "0.1.10"
-  resolved "https://registry.yarnpkg.com/@truefit/bach/-/bach-0.1.10.tgz#ee0aa2e8d3289d5df9788fa9b56f4c52c98cbee7"
-  integrity sha512-SuvfyiYsBD4zKSrv0APFUXgLgFdXxFjPzXjqN6BcxgkHCo2mwyYwdbcxUFIZIQO/cIHxdhyyEIMGKsz62s2+1g==
+"@truefit/bach@^0.1.11":
+  version "0.1.11"
+  resolved "https://registry.yarnpkg.com/@truefit/bach/-/bach-0.1.11.tgz#a7f3f2c0045b8bda9b4c68f2569c3539a91860c8"
+  integrity sha512-Co6D4qr/JfLimyrt7AutzgFD4/CFCbVEPG5QRjqk+9KJAt0gfICr9Dd3i5l+yFriUUmDYs9sTKgqU/xkh0Hn1w==
   dependencies:
     react "^16.8.6"
 
-"@truefit/bach@^0.1.7":
-  version "0.1.7"
-  resolved "https://registry.yarnpkg.com/@truefit/bach/-/bach-0.1.7.tgz#b11ad89302ff609726d0c668b2d2316b27866131"
-  integrity sha512-oR9MkBs4ogzyul90pFHZbDOtdvWtAJLamkdBU7y8/bOwdXA9BkrUyGXOZemqILhforAy5YHAwvz8rtsIMHOidA==
-  dependencies:
-    react "^16.8.6"
-
-"@truefit/bach@^0.1.8":
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/@truefit/bach/-/bach-0.1.8.tgz#162ad7a8b41c71af89cb9de0856a4ffcc76c8cc1"
-  integrity sha512-gwZG/9m5qH5f4dlIRYm2epqaWUguvxPD6SNLkA7b/+D0KuwUBw1GUrqapLPf7GV4VzBNAQoZWL5ZhdnMf70j9A==
-  dependencies:
-    react "^16.8.6"
-
-"@truefit/http-utils@^1.0.6":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@truefit/http-utils/-/http-utils-1.0.6.tgz#26eb442121cbad5496ea648b708728ac95f7b0a9"
-  integrity sha512-ELdZSAIngPLVNQFmIzZ2blHmW9FCNUkUCQSRPq0oVVY3LT05pkFQJ1p0a/KnakrmDaHyljDsFPclt1Bt/q8k+A==
+"@truefit/http-utils@^1.0.7":
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/@truefit/http-utils/-/http-utils-1.0.7.tgz#3eaef9562086e9d7e4ad525002d19e28615fc298"
+  integrity sha512-VbPqVDPNNzpiLfV4MUZ1xOzHdIm2leBi9nZiIkODCbj64OVSudKf0t3aHWjF+OATN8ETgbuAdGa2Lth8sk70/Q==
   dependencies:
     axios "^0.18.0"
 
-"@truefit/redux-utils@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@truefit/redux-utils/-/redux-utils-1.0.2.tgz#aea784e6dcf17645a3362d0804c4d90a079f65c8"
-  integrity sha512-F2rMmemvuNASm1zvQPMm59a7zpJLRUMTaIpMzh6pTSButg2D+WbcVI6qp8LL1bRmiqSCliXMTDj1Zl3ooZfrWQ==
+"@truefit/redux-utils@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@truefit/redux-utils/-/redux-utils-1.0.3.tgz#f540e851e6373b183bedb5216ba295b0e842b79c"
+  integrity sha512-r5LEeqcCQuByeDYkgYzKXZZi/rlQ58JwJKUVsoiWtfsGcKU5t679g2VyPUtCFeq/5BP7NUXtixDoHYjtbbRnHg==
 
 "@types/babel__core@^7.1.0":
   version "7.1.1"
@@ -3543,10 +3529,10 @@ eslint-plugin-import@^2.17.2:
     read-pkg-up "^2.0.0"
     resolve "^1.10.0"
 
-eslint-plugin-jest@^22.5.1:
-  version "22.5.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-22.5.1.tgz#a31dfe9f9513c6af7c17ece4c65535a1370f060b"
-  integrity sha512-c3WjZR/HBoi4GedJRwo2OGHa8Pzo1EbSVwQ2HFzJ+4t2OoYM7Alx646EH/aaxZ+9eGcPiq0FT0UGkRuFFx2FHg==
+eslint-plugin-jest@^22.6.4:
+  version "22.6.4"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-22.6.4.tgz#2895b047dd82f90f43a58a25cf136220a21c9104"
+  integrity sha512-36OqnZR/uMCDxXGmTsqU4RwllR0IiB/XF8GW3ODmhsjiITKuI0GpgultWFt193ipN3HARkaIcKowpE6HBvRHNg==
 
 eslint-plugin-react@^7.13.0:
   version "7.13.0"
@@ -7951,10 +7937,10 @@ react-dom@^16.8.6:
     prop-types "^15.6.2"
     scheduler "^0.13.6"
 
-react-hot-loader@^4.8.7:
-  version "4.8.7"
-  resolved "https://registry.yarnpkg.com/react-hot-loader/-/react-hot-loader-4.8.7.tgz#8bcec3105d4e0e3cba52aa59800568fc9fb3322d"
-  integrity sha512-ctWAu8iwp37qd4w1qhjN6neDA1e5bSmAUY46L2l5SeK+i8AfzX+7lrpaLW4TJVaiBv5MlqIzA1ClNnvlvsy5Lg==
+react-hot-loader@^4.8.8:
+  version "4.8.8"
+  resolved "https://registry.yarnpkg.com/react-hot-loader/-/react-hot-loader-4.8.8.tgz#71e3c7ba301556aa24c52cef2f6ed0af82395eea"
+  integrity sha512-58bgeS7So8V93MhhnKogbraor8xdrTncil+b6IoIXkTIr3blJNAE7bU4tn/iJvy2J7rjxQmKFRaxKrWdKUZpqg==
   dependencies:
     fast-levenshtein "^2.0.6"
     global "^4.3.0"
@@ -9945,10 +9931,10 @@ webpack-stylish@^0.1.8:
     text-table "^0.2.0"
     wordwrap "^1.0.0"
 
-webpack@^4.32.0:
-  version "4.32.0"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-4.32.0.tgz#d8726fe73bb362e0e48171990f362df5e747747b"
-  integrity sha512-ofFq9jjAn4HRzlmkcZZrjijbRZcqDw+mM9KrjKd0r6lS0qxyZ7jzICzhphGafXL62dGdjP7TgMK9mZeMLUgZgw==
+webpack@^4.32.2:
+  version "4.32.2"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-4.32.2.tgz#3639375364a617e84b914ddb2c770aed511e5bc8"
+  integrity sha512-F+H2Aa1TprTQrpodRAWUMJn7A8MgDx82yQiNvYMaj3d1nv3HetKU0oqEulL9huj8enirKi8KvEXQ3QtuHF89Zg==
   dependencies:
     "@webassemblyjs/ast" "1.8.5"
     "@webassemblyjs/helper-module-context" "1.8.5"
