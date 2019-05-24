@@ -1128,12 +1128,12 @@
   dependencies:
     any-observable "^0.3.0"
 
-"@truefit/bach-recompose@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@truefit/bach-recompose/-/bach-recompose-0.0.2.tgz#5f5f6a22c22dc6e8b39fb3931c8d0e6db07ac1f1"
-  integrity sha512-18IqoDK7pI8W4xn4NJoP2dm+FWCTLdJWLiHgIUqHeVhy9Qog93EsXHh7uHwfraD0lpc4Vpy+DVjrpHtBSfcnHA==
+"@truefit/bach-recompose@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@truefit/bach-recompose/-/bach-recompose-0.0.3.tgz#7323dc87b73f41b42fd7c97c2a9d3014bc406bd6"
+  integrity sha512-FilN17FFBLdxiFx+yxIXgYLDtL5zGDIxgE7m1gmalRqvErb/Agp/6MQ2weYijl/DgCj/yye9ITuYxyzD3SAXqw==
   dependencies:
-    "@truefit/bach" "^0.1.11"
+    "@truefit/bach" "^0.1.16"
     react "^16.8.6"
 
 "@truefit/bach-redux@^0.0.7":
@@ -1146,17 +1146,17 @@
     react-redux "^7.1.0-alpha.4"
     redux "^4.0.1"
 
-"@truefit/bach@^0.1.11":
-  version "0.1.11"
-  resolved "https://registry.yarnpkg.com/@truefit/bach/-/bach-0.1.11.tgz#a7f3f2c0045b8bda9b4c68f2569c3539a91860c8"
-  integrity sha512-Co6D4qr/JfLimyrt7AutzgFD4/CFCbVEPG5QRjqk+9KJAt0gfICr9Dd3i5l+yFriUUmDYs9sTKgqU/xkh0Hn1w==
-  dependencies:
-    react "^16.8.6"
-
-"@truefit/bach@^0.1.14", "@truefit/bach@^0.1.15":
+"@truefit/bach@^0.1.15":
   version "0.1.15"
   resolved "https://registry.yarnpkg.com/@truefit/bach/-/bach-0.1.15.tgz#b66202677999c7716c2d925048f0069914da03b1"
   integrity sha512-htOBXxNcb2v4bvLGxZlFykfIkN44yM55QjQZp9vrvb5HFXLudcu4FBO89orCrpTsrSp2wmzju22etMWR29PqNQ==
+  dependencies:
+    react "^16.8.6"
+
+"@truefit/bach@^0.1.16":
+  version "0.1.16"
+  resolved "https://registry.yarnpkg.com/@truefit/bach/-/bach-0.1.16.tgz#fd90c7b156c5965f2b731ef288342c6c8e305d30"
+  integrity sha512-6kBbkT1dVeHhMN+omfKIUNKBAVq1dZt0Ho8BxokOoOQMxE+KsQl27azUboL47FO+VCT7Bwv+3plFwodZYRA7fA==
   dependencies:
     react "^16.8.6"
 

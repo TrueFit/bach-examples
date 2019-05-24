@@ -14,7 +14,7 @@ const Component = ({count, incrementCount}) => (
 export default compose(
   withState('count', 'setCount', 0),
 
-  withCallback('incrementCount', ({count, setCount}) => {
+  withCallback('incrementCount', ({count, setCount}) => () => {
     setCount(count + 1);
   }),
 )(Component);

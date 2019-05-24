@@ -16,7 +16,7 @@ export default compose(
   withState('count', 'setCount', 0),
 
   withHandlers({
-    incrementCount: ({count, setCount}) => {
+    incrementCount: ({count, setCount}) => () => {
       setCount(count + 1);
     },
   }),

@@ -11,6 +11,7 @@ import {
   WithRef,
   WithEffectAndState,
   WithMemoAndState,
+  WithCallbackAndState,
 } from '../../bach/components';
 
 import {
@@ -47,6 +48,7 @@ export default () => (
 
       <Route path="*/withEffectAndState" component={WithEffectAndState} />
       <Route path="*/withMemoAndState" component={WithMemoAndState} />
+      <Route path="*/withCallbackAndState" component={WithCallbackAndState} />
     </Route>
 
     <Route path="/bachrecompose">

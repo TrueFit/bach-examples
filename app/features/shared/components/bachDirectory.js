@@ -11,7 +11,11 @@ const simple = [
   'withRef',
 ];
 
-const combined = ['withEffectAndState', 'withMemoAndState'];
+const combined = [
+  'withEffectAndState',
+  'withMemoAndState',
+  'withCallbackAndState',
+];
 
 export default () => (
   <Menu title="@truefit/bach" root="bach" simple={simple} combined={combined} />

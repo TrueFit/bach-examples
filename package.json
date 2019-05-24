@@ -25,8 +25,8 @@
     ]
   },
   "dependencies": {
-    "@truefit/bach": "^0.1.15",
-    "@truefit/bach-recompose": "^0.0.2",
+    "@truefit/bach": "^0.1.16",
+    "@truefit/bach-recompose": "^0.0.3",
     "@truefit/bach-redux": "^0.0.7",
     "@truefit/http-utils": "^1.0.8",
     "@truefit/redux-utils": "^1.0.3",

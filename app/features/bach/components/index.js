@@ -8,3 +8,4 @@ export {default as WithRef} from './withRef';
 
 export {default as WithMemoAndState} from './withMemoAndState';
 export {default as WithEffectAndState} from './withEffectAndState';
+export {default as WithCallbackAndState} from './withCallbackAndState.js';
