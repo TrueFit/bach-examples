@@ -1153,6 +1153,13 @@
   dependencies:
     react "^16.8.6"
 
+"@truefit/bach@^0.1.18":
+  version "0.1.18"
+  resolved "https://registry.yarnpkg.com/@truefit/bach/-/bach-0.1.18.tgz#41bbadb49db94d572a47df40420d3ab15c36240a"
+  integrity sha512-P14T97Jcl6X67muhk81cYJPvWF613DoWX5i6+WaiIefliWoLoC2sMZotq4vobgKSpFIzRCcNTjeRaJrMJ/ZbUg==
+  dependencies:
+    react "^16.8.6"
+
 "@truefit/http-utils@^1.0.8":
   version "1.0.8"
   resolved "https://registry.yarnpkg.com/@truefit/http-utils/-/http-utils-1.0.8.tgz#769533461d15686a79606393d60376e2c8d78450"
