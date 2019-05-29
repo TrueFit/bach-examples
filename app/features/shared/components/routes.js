@@ -30,6 +30,8 @@ import {
   WithActionsAndSelector,
 } from '../../bachRedux/components';
 
+import {WithStyles} from '../../bachMaterialUI/components';
+
 import Directory from './directory';
 import NotFound from './notFound';
 
@@ -72,6 +74,10 @@ export default () => (
         path="*/withActionsAndSelector"
         component={WithActionsAndSelector}
       />
+    </Route>
+
+    <Route path="/bachmaterialui">
+      <Route path="*/withStyles" component={WithStyles} />
     </Route>
 
     <Route component={NotFound} />

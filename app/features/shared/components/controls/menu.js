@@ -18,10 +18,17 @@ const Menu = ({title, root, links}) => (
   </>
 );
 
-export default ({title, root, simple, combined}) => (
-  <>
-    <h1>{title}</h1>
-    <Menu title="Simple" root={root} links={simple} />
-    <Menu title="Combined" root={root} links={combined} />
-  </>
-);
+export default ({title, root, simple, combined}) => {
+  const combinedMenu =
+    combined?.length > 0 ? (
+      <Menu title="Combined" root={root} links={combined} />
+    ) : null;
+
+  return (
+    <>
+      <h1>{title}</h1>
+      <Menu title="Simple" root={root} links={simple} />
+      {combinedMenu}
+    </>
+  );
+};

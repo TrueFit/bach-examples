@@ -25,7 +25,9 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@material-ui/core": "^4.0.1",
     "@truefit/bach": "^0.1.18",
+    "@truefit/bach-material-ui": "^0.1.0",
     "@truefit/bach-recompose": "^0.0.4",
     "@truefit/bach-redux": "^0.1.0",
     "@truefit/http-utils": "^1.0.8",
