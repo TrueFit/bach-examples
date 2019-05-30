@@ -6,8 +6,8 @@ const WithSelector = ({todos}) => (
   <div>
     <h1>withSelector</h1>
     <ul>
-      {todos.map(todo => (
-        <li key={todo}>{todo}</li>
+      {todos.map((todo, i) => (
+        <li key={i}>{todo}</li>
       ))}
     </ul>
   </div>

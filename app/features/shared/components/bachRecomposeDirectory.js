@@ -1,9 +1,22 @@
 import React from 'react';
 import Menu from './controls/menu';
 
-const simple = ['withHandlers', 'withLifecycle'];
+const simple = [
+  'mapProps',
+  'withHandlers',
+  'withLifecycle',
+  'renameProp',
+  'renameProps',
+  'renderIf',
+  'renderNothing',
+  'withProps',
+];
 
-const combined = ['withStateAndHandlers', 'withStateLifecycleAndHandlers'];
+const combined = [
+  'withStateAndHandlers',
+  'withStateLifecycleAndHandlers',
+  'withPropsAndState',
+];
 
 export default () => (
   <Menu

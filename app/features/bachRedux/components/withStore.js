@@ -6,8 +6,8 @@ const WithStore = ({store}) => (
   <div>
     <h1>withStore</h1>
     <ul>
-      {store.getState().features.bachRedux.todo.map(todo => (
-        <li key={todo}>{todo}</li>
+      {store.getState().features.bachRedux.todo.map((todo, i) => (
+        <li key={i}>{todo}</li>
       ))}
     </ul>
   </div>
