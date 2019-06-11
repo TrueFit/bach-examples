@@ -14,8 +14,8 @@ const WithSelector = ({addToDo, todos}) => (
       Click Me
     </button>
     <ul>
-      {todos.map(todo => (
-        <li key={todo}>{todo}</li>
+      {todos.map((todo, index) => (
+        <li key={index}>{todo}</li>
       ))}
     </ul>
   </div>
