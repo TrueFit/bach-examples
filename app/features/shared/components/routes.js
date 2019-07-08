@@ -6,6 +6,7 @@ import * as Bach from '../../bach/components';
 import * as BachRecompose from '../../bachRecompose/components';
 import * as BachRedux from '../../bachRedux/components';
 import * as BachMaterialUI from '../../bachMaterialUI/components';
+import * as BachFormik from '../../bachFormik/components';
 
 import Directory from './directory';
 import NotFound from './notFound';
@@ -15,6 +16,7 @@ const RouteMap = {
   bachrecompose: BachRecompose,
   bachredux: BachRedux,
   bachmaterialui: BachMaterialUI,
+  bachformik: BachFormik,
 };
 
 const RouteTree = ({root, components}) => {

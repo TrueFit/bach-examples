@@ -27,6 +27,7 @@
   "dependencies": {
     "@material-ui/core": "^4.1.0",
     "@truefit/bach": "^1.0.0",
+    "@truefit/bach-formik": "^1.0.0",
     "@truefit/bach-material-ui": "^1.0.0",
     "@truefit/bach-recompose": "^1.0.0",
     "@truefit/bach-redux": "^1.0.1",
