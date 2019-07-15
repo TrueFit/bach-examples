@@ -9,6 +9,7 @@ const simple = [
   'withCallback',
   'withMemo',
   'withRef',
+  'withHook',
 ];
 
 const combined = [
