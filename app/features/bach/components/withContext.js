@@ -1,6 +1,8 @@
 import React from 'react';
 import {compose, withContext} from '@truefit/bach';
 
+const Context = React.createContext({message: 'Hello Child'});
+
 const Component = ({message}) => {
   return (
     <div>
@@ -12,12 +14,12 @@ const Component = ({message}) => {
   );
 };
 
-const Child = compose(withContext(['message'], 'context'))(Component);
+const Child = compose(withContext(['message'], Context))(Component, {
+  debug: {log: true},
+});
 
 const Parent = () => {
-  const context = React.createContext({message: 'Hello Child'});
-
-  return <Child context={context} />;
+  return <Child context={Context} />;
 };
 
 export default Parent;
