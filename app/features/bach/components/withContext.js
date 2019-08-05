@@ -1,22 +1,28 @@
 import React from 'react';
 import {compose, withContext} from '@truefit/bach';
 
-const Context = React.createContext({message: 'Hello Child'});
+const Context = React.createContext({
+  greeting: 'Hello',
+  target: 'World',
+});
 
-const Component = ({message}) => {
+const Component = ({greeting, target}) => {
   return (
     <div>
       <h1>With Context</h1>
       <div>
-        <h2>{message}</h2>
+        <h2>
+          {greeting} {target}
+        </h2>
       </div>
     </div>
   );
 };
 
-const Child = compose(withContext(['message'], Context))(Component, {
-  debug: {log: true},
-});
+const Child = compose(
+  withContext(['greeting'], Context),
+  withContext(['target'], 'context'),
+)(Component, {debug: {breakpoint: true}});
 
 const Parent = () => {
   return <Child context={Context} />;

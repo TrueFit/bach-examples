@@ -1352,10 +1352,10 @@
   dependencies:
     react "^16.8.6"
 
-"@truefit/bach@^1.0.12":
-  version "1.0.12"
-  resolved "https://registry.yarnpkg.com/@truefit/bach/-/bach-1.0.12.tgz#5d8cd5561e0bb8e88176ca0c05ed8ae47f4a38d5"
-  integrity sha512-qEK7flo9bJJmWuhyvxoNYWGniRZQvuZrHPmt6spSmCb1YmMxT/TGw05NckwnVncLIhzmBYQjd34/tROUIE4qVw==
+"@truefit/bach@^1.0.18":
+  version "1.0.18"
+  resolved "https://registry.yarnpkg.com/@truefit/bach/-/bach-1.0.18.tgz#e48a525bc61fba8b49c1b830130525cb9ff25561"
+  integrity sha512-4cdFor8Nr89YGy1E39yne5Y3zvUk7yP0cyPtKiXjZcYwYg4f0XmWtPHzPvbK66y5KYuCCpohIDyeKsPykwQRTw==
   dependencies:
     react "^16.8.6"
 
