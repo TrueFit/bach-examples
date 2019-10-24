@@ -10,6 +10,7 @@ const simple = [
   'renderIf',
   'renderNothing',
   'withProps',
+  'memo',
 ];
 
 const combined = [
