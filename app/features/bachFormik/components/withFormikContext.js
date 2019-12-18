@@ -1,8 +1,20 @@
 import React from 'react';
-import {compose} from '@truefit/bach';
-import {withFormik} from '@truefit/bach-formik';
+import {compose, withEffect} from '@truefit/bach';
+import {withFormik, withFormikContext} from '@truefit/bach-formik';
 
-const WithFormik = ({values, handleChange, handleBlur, handleSubmit}) => (
+const MagicSubmit = compose(
+  withFormikContext(['values', 'submitForm']),
+  withEffect(
+    ({values, submitForm}) => {
+      if (values.age >= 35) {
+        submitForm();
+      }
+    },
+    ['values, submitForm'],
+  ),
+)(() => null);
+
+const WithFormik = ({values, handleChange, handleBlur}) => (
   <div>
     <div>
       Name:
@@ -32,9 +44,7 @@ const WithFormik = ({values, handleChange, handleBlur, handleSubmit}) => (
       />
     </div>
 
-    <button type="submit" onClick={handleSubmit}>
-      Submit
-    </button>
+    <MagicSubmit />
   </div>
 );
 
