@@ -2,7 +2,9 @@ import React from 'react';
 import {compose} from '@truefit/bach';
 import {withFormik} from '@truefit/bach-formik';
 
-const WithFormik = ({values, handleChange, handleBlur, handleSubmit}) => (
+const WithFormik = ({
+  formik: {values, handleChange, handleBlur, handleSubmit},
+}) => (
   <div>
     <div>
       Name:

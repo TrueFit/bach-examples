@@ -1,7 +1,7 @@
 import React from 'react';
 import Menu from './controls/menu';
 
-const simple = ['withFormik', 'withField', 'withFormikContext'];
+const simple = ['withFormik'];
 
 const combined = [];
 
