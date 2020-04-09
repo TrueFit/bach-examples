@@ -9,4 +9,5 @@ export {default as WithHook} from './withHook';
 
 export {default as WithMemoAndState} from './withMemoAndState';
 export {default as WithEffectAndState} from './withEffectAndState';
-export {default as WithCallbackAndState} from './withCallbackAndState.js';
+export {default as WithCallbackAndState} from './withCallbackAndState';
+export {default as ComposeEnhancers} from './composeEnhancers';

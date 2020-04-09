@@ -16,6 +16,7 @@ const combined = [
   'withEffectAndState',
   'withMemoAndState',
   'withCallbackAndState',
+  'composeEnhancers',
 ];
 
 export default () => (
